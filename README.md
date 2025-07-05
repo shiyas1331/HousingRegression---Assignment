@@ -3,23 +3,23 @@
 
 This project is part of ML Ops Assignment 1. It demonstrates how to build, automate, and manage a classical machine learning pipeline using Git, GitHub Actions, and Conda environments.
 
-## 📌 Problem Statement
+## Problem Statement
 
 Predict house prices using the Boston Housing dataset. Compare performance of at least 3 regression models using MSE and R². Automate model training using GitHub Actions CI pipeline.
 
-## 📦 Models Used
+## Models Used
 
 - Linear Regression / Ridge Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 
-## 🔧 Branch Structure
+## Branch Structure
 
 - `main` — Final merged version with README
 - `reg` — Contains base models and evaluation
 - `hyper` — Adds hyperparameter tuning (min 3 per model)
 
-## ⚙️ Workflow Automation
+## Workflow Automation
 
 GitHub Actions is configured to:
 
@@ -30,7 +30,7 @@ GitHub Actions is configured to:
 
 See `.github/workflows/ci.yml` for full workflow.
 
-## 📁 Repo Structure
+## Repo Structure
 
 HousingRegression/
 ├── .github/workflows/ci.yml
@@ -39,13 +39,13 @@ HousingRegression/
 ├── requirements.txt
 └── README.md
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each model is evaluated using:
 - Mean Squared Error (MSE)
 - R² Score
 
-## ✅ Final Report
+## Final Report
 
 The final report `p22cs201_A1.pdf` contains:
 - GitHub repo link
